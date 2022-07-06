@@ -12,6 +12,20 @@ body {
     margin-right: 30%;
 }
 
+.background-img {
+    background-image: url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 100%;
+
+
+    margin: 0%;
+}
+
+#head {
+    color: white;
+}
+
 .container {
     display: flex;
     padding: 40px;
@@ -39,9 +53,19 @@ body {
     border-bottom: 1px solid slategray;
 }
 
+.link1 {
+    text-decoration: none;
+    margin-left: 44%;
+    background-image: linear-gradient(rgb(234, 22, 22), tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
 .link {
     text-decoration: none;
-    margin-left: 45%;
+    margin-left: 10%;
     background-image: linear-gradient(rgb(234, 22, 22), tomato);
     padding: 10px 40px;
     color: white;
@@ -103,4 +127,36 @@ body {
 .flexible-container {
     display: flex;
     margin-bottom: 100px;
+
+}
+
+.submit {
+    text-decoration: none;
+    text-align: center;
+
+}
+
+#four {
+    background-color: rgb(240, 205, 159);
+    height: 90px;
+    width: 600px;
+    margin-left: 30%;
+}
+
+
+
+
+
+
+footer {
+    text-align: center;
+    background-color: rgb(29, 9, 9);
+}
+
+footer h2 {
+    color: red;
+}
+
+footer p {
+    color: white;
 }
